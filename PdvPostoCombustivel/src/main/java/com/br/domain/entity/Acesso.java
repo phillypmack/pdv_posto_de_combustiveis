@@ -1,42 +1,30 @@
 package com.br.domain.entity;
 
 public class Acesso{
-
-    //atribustos
-    private String telefone;
-    private String email;
-    private String endereco;
+    //atributos
+    private String usuario;
+    private String senha;
 
     //construtor
-    public Contato(String telefone, String email, String endereco){
-        this.telefone = telefone;
-        this.email = email;
-        this.endereco = endereco;
+    public Acesso(String usuario, String senha){
+        this.usuario = usuario;
+        this.senha = senha;
+
     }
 
     //getter
-
-    public String getTelefone(){
-        return telefone;
+    public String getUsuario(){
+        return usuario;
     }
-
-    public String getEmail(){
-        return email;
-    }
-
-    public String getEndereco(){
-        return endereco;
+    public String getSenha(){
+        return senha;
     }
 
     //setter
-
-    public void setTelefone(String telefone){
-        this.telefone = telefone;
+    public void setUsuario(String usuario){
+        this.usuario = usuario;
     }
-    public void setEmail(String email){
-        this.email = email;
-    }
-    public void setEndereco(String endereco){
-        this.endereco;
+    public void setSenha(String senha){
+        this.senha = senha;
     }
 }
