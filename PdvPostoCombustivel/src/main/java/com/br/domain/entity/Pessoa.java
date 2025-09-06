@@ -9,11 +9,11 @@ public class Pessoa {
     private String nomeCompleto;
     private String cpfCnpj;
     private Date dataNascimento;
-    private Interger numeroCtps;
+    private Integer numeroCtps;
 
     //construtor
 
-    public Pessoa (String nomeCompleto, String cpfCnpj, Date dataNascimento, Interger numeroCtps){
+    public Pessoa (String nomeCompleto, String cpfCnpj, Date dataNascimento, Integer numeroCtps){
         this.nomeCompleto = nomeCompleto;
         this.cpfCnpj = cpfCnpj;
         this.dataNascimento = dataNascimento;
@@ -31,7 +31,7 @@ public class Pessoa {
     public Date getDataNascimento(){
         return dataNascimento;
     }
-    public Interger getNumeroCtps(){
+    public Integer getNumeroCtps(){
         return numeroCtps;
     }
 
@@ -46,7 +46,7 @@ public class Pessoa {
     public void setDataNascimento(Date dataNascimento){
         this.dataNascimento = dataNascimento;
     }
-    public void setNumeroCtps(Interger numeroCtps){
+    public void setNumeroCtps(Integer numeroCtps){
         this.numeroCtps = numeroCtps;
     }
 
